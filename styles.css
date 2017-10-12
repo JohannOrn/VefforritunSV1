@@ -1,10 +1,31 @@
-@charset "UTF-8";
-html {
-  font-family: 'Open Sans', helvetica, arial, sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-}
-
-.heading {
-  font-family: 'Roboto Slab', georgia, serif;
-}
+.button {
+  display: inline-block;
+  width: 100%;
+  max-width: 256px;
+  padding: 10px 5px;
+  margin: 100px;
+  overflow: hidden;
+  font-size: 1rem;
+  color: #eee;
+  text-align: center;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  cursor: pointer;
+  background-color: #000;
+  border: 1px solid #666;
+  border-radius: 4px;
+  align-items: center; }
+  .button:hover {
+    color: #eee;
+    background-color: #333; }
+  .button--inverted {
+    color: #666;
+    background-color: #eee; }
+  .button--inverted:hover {
+    color: #333;
+    background-color: #ccc; }
+  .button--disabled, .button--disabled:hover {
+    color: #999;
+    background-color: #eee;
+    border-color: #eee; }
