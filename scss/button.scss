@@ -23,20 +23,15 @@
     background-color: #333;
   }
 
-  &--inverted {
-    color: #666;
-    background-color: #eee;
+  &--small {
+    max-width: 60px;
   }
 
-  &--inverted:hover {
-    color: #333;
-    background-color: #ccc;
+  &--medium {
+    max-width: 128px;
   }
 
-  &--disabled,
-  &--disabled:hover {
-    color: #999;
-    background-color: #eee;
-    border-color: #eee;
+  &--large {
+    max-width: 256px;
   }
 }

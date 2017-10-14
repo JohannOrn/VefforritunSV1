@@ -1,3 +1,118 @@
+@charset "UTF-8";
+/* setjum box-sizing: border-box; á allt */
+html {
+  /* stylelint-disable-line */
+  box-sizing: border-box;
+  margin-right: 10%;
+  margin-left: 20px;
+  align-items: center;
+  font-family: "Open Sans", helvetica, arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5; }
+  @media (min-width: 1200px) {
+    html {
+      margin: 0; } }
+
+*, *:before, *:after {
+  /* stylelint-disable-line */
+  box-sizing: inherit;
+  /* fjarlægjum margin og padding */
+  padding: 0;
+  margin: 0; }
+
+html {
+  /* stylelint-disable-line */ }
+
+nav {
+  background-color: #333; }
+
+header {
+  background-image: url(bg.jpg); }
+
+img {
+  /* stylelint-disable-line */
+  max-width: 100%; }
+
+main {
+  /* stylelint-disable-line */
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow-x: hidden; }
+
+button {
+  align-items: center; }
+
+.button:hover {
+  color: #eee;
+  background-color: #666;
+  transition: background-color 500ms linear, color 500ms linear;
+  transition-timing-function: ease; }
+
+.reviews img {
+  border-radius: 50%; }
+
+footer {
+  background-color: #333; }
+
+/*
+   ATH ATH ATH ATH ATH ----------- COPY/PASTE ÚR VERKEFNI 6, ÞARF AÐ VINNA AFTUR FRÁ GRUNNI
+*/
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -10px;
+  margin-bottom: 20px;
+  margin-left: -10px; }
+
+.col {
+  padding-right: 10px;
+  padding-left: 10px; }
+  .col-12 {
+    width: 100%; }
+  .col-8 {
+    width: 66.66667%; }
+  .col-6 {
+    width: 50%; }
+  .col-4 {
+    width: 33.33333%; }
+  @media (max-width: 599px) {
+    .col-sm-12 {
+      width: 100%; } }
+
+/*
+   ATH ATH ATH ATH ATH ----------- COPY/PASTE ÚR VERKEFNI 6, ÞARF AÐ VINNA AFTUR FRÁ GRUNNI
+*/
+/*
+   ATH ATH ATH ATH ATH ----------- COPY/PASTE ÚR VERKEFNI 6, ÞARF AÐ VINNA AFTUR FRÁ GRUNNI
+*/
+.heading {
+  width: 100%;
+  padding: 0;
+  font-family: "Roboto Slab", georgia, serif;
+  font-size: 2rem; }
+  .heading--one {
+    font-size: 3rem;
+    border-bottom: 0; }
+  .heading--two {
+    font-size: 2rem;
+    border-bottom: 0; }
+  .heading--three {
+    font-size: 1rem;
+    border-bottom: 0; }
+
+.header {
+  text-decoration: none; }
+  .header--left {
+    text-align: left; }
+  .header--right {
+    text-align: right; }
+
+/*
+   ATH ATH ATH ATH ATH ----------- COPY/PASTE ÚR VERKEFNI 6, ÞARF AÐ VINNA AFTUR FRÁ GRUNNI
+*/
+.text__p {
+  margin: 20px; }
+
 .button {
   display: inline-block;
   width: 100%;
@@ -19,13 +134,9 @@
   .button:hover {
     color: #eee;
     background-color: #333; }
-  .button--inverted {
-    color: #666;
-    background-color: #eee; }
-  .button--inverted:hover {
-    color: #333;
-    background-color: #ccc; }
-  .button--disabled, .button--disabled:hover {
-    color: #999;
-    background-color: #eee;
-    border-color: #eee; }
+  .button--small {
+    max-width: 60px; }
+  .button--medium {
+    max-width: 128px; }
+  .button--large {
+    max-width: 256px; }
