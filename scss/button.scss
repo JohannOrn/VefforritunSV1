@@ -1,19 +1,19 @@
+$gutter: 20px;
+
 .button {
   display: inline-block;
-
   width: 100%;
   max-width: 256px;
-  padding: 10px 5px;
-  margin: 100px;
+  padding: 0.5*$gutter;
   overflow: hidden;
   font-size: 1rem;
   color: #eee;
   text-align: center;
   text-decoration: none;
-  text-overflow: ellipsis;
+  text-overflow: none;
   white-space: nowrap;
   cursor: pointer;
-  background-color: #000;
+  background-color: #555;
   border: 1px solid #666;
   border-radius: 4px;
   align-items: center;
@@ -21,10 +21,14 @@
   &:hover {
     color: #eee;
     background-color: #333;
+    transition: background-color 500ms linear, color 500ms linear;
+    transition-timing-function: ease;
   }
 
   &--small {
     max-width: 60px;
+    padding: 0;
+    border-style: none;
   }
 
   &--medium {

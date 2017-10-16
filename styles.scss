@@ -5,9 +5,8 @@ $gutter: 20px;
 /* setjum box-sizing: border-box; á allt */
 html { /* stylelint-disable-line */
   box-sizing: border-box;
-  margin-right: 10%;
+  margin-right: $gutter;
   margin-left: $gutter;
-  align-items: center;
   font-family: "Open Sans", helvetica, arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
@@ -31,14 +30,6 @@ html { /* stylelint-disable-line */
   // ruglar líka ekki í grid overlay
 }
 
-nav {
-  background-color: #333;
-}
-
-header {
-  background-image: url(bg.jpg);
-}
-
 img { /* stylelint-disable-line */
   max-width: 100%;
 }
@@ -52,23 +43,8 @@ main { /* stylelint-disable-line */
   overflow-x: hidden;
 }
 
-button {
-  align-items: center;
-}
-
-.button:hover {
-  color: #eee;
-  background-color: #666;
-  transition: background-color 500ms linear, color 500ms linear;
-  transition-timing-function: ease;
-}
-
 .reviews img {
   border-radius: 50%;
-}
-
-footer {
-  background-color: #333;
 }
 
 @import "scss/grid";
@@ -76,3 +52,4 @@ footer {
 @import "scss/heading";
 @import "scss/text";
 @import "scss/button";
+@import "scss/footer";

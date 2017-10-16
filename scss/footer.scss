@@ -1,0 +1,17 @@
+footer {
+  display: flex;
+  justify-content: center;
+  padding: $gutter;
+  color: #fff;
+  background-color: #333;
+  span {
+    padding: $gutter;
+    color: #999;
+    border-top: 2px solid #444;
+  }
+
+}
+
+footer div div {
+  padding: $gutter;
+}

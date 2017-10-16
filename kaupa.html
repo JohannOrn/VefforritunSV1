@@ -10,17 +10,31 @@
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <header>
-      <a href="index.html">Fooþjónustan</a>
-      <a href="um.html">Um</a>
-      <a href="kaupa.html">Kaupa</a>
+    <nav>
+      <div class="grid">
+        <div class="row">
+          <div class="col col-6 col-sm-6 header--left">
+            <h3 class="heading heading--three"><a href="index.html">Fooþjónustan</a></h3>
+          </div>
+          <div class="col col-6 col-sm-6 header--right">
+            <a href="um.html">Um</a>
+            <a href="kaupa.html" class="button button--small">Kaupa</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <header class="header-subpage">
+
+      <div class="grid">
+        <div class="row">
+          <div class="col col-6 col-sm-6 header--left">
+            <h1 class="heading heading--one">Kaupa</h1>
+          </div>
+        </div>
+      </div>
     </header>
 
-    <div>
-      <img src="bg-subpage.jpg" alt="Kaupa fooþjónustuna">
-      <h1 class="heading--one">Kaupa</h1>
-    </div>
- 
     <form>
       <div>
         <fieldset>
@@ -136,25 +150,31 @@
         </div>
 
         <div>
-          <button class="button-large">Panta</button>
+          <button class="button button--large">Panta</button>
         </div>
       </form>
 
-    <footer>
-      <div>
-        <p>Fooþjónustan</p>
-        <p>123-4567</p>
-      </div>
+      <footer>
+        <div class="grid">
+          <div class="row">
+            <div class="col col-6 col-sm-6">
+              <p>Fooþjónustan</p>
+              <p>123-4567</p>
+            </div>
 
-      <div>
-        <p>Opið 12-13 alla daga</p>
-        <p>Bargata 1</p>
-        <p>900 Foobar</p>
-      </div>
+            <div class="col col-6 col-sm-6">
+              <p>Opið 12-13 alla daga</p>
+              <p>Bargata 1</p>
+              <p>900 Foobar</p>
+            </div>
+          </div>
 
-      <div>
-        <p>© Fooþjónustan 2017</p>
-      </div>
-    </footer>
+          <div class="row">
+            <div class="col col-12 col-sm-12">
+              <span>© Fooþjónustan 2017</span>
+            </div>
+          </div>
+        </div>
+      </footer>
   </body>
 </html>
