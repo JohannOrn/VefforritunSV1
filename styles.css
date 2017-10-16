@@ -140,3 +140,23 @@ footer {
     max-width: 128px; }
   .button--large {
     max-width: 256px; }
+
+body {
+  padding: 20px;
+  font-size: 16px; }
+
+h1 {
+  font-size: 36px; }
+
+h2 {
+  font-size: 24px; }
+
+h3 {
+  font-size: 21px; }
+
+p {
+  font-size: 16px; }
+
+a {
+  font-size: 16px;
+  color: navy; }
