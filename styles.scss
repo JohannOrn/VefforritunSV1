@@ -5,8 +5,8 @@ $gutter: 20px;
 /* setjum box-sizing: border-box; á allt */
 html { /* stylelint-disable-line */
   box-sizing: border-box;
-  margin-right: $gutter;
-  margin-left: $gutter;
+//  margin-right: $gutter;
+//  margin-left: $gutter;
   font-family: "Open Sans", helvetica, arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
@@ -47,13 +47,15 @@ main { /* stylelint-disable-line */
   border-radius: 50%;
 }
 
+.check {
+  height: $gutter;
+}
+
 @import "scss/grid";
 @import "scss/header";
 @import "scss/heading";
 @import "scss/text";
 @import "scss/button";
-<<<<<<< HEAD
 @import "scss/footer";
-=======
 @import "scss/Body";
->>>>>>> 67bc1ac1c7fc2f4e41f43f601818d8d782bffae1
+//>>>>>>> 67bc1ac1c7fc2f4e41f43f601818d8d782bffae1
