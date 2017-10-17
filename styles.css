@@ -173,18 +173,24 @@ footer {
 footer div div {
   padding: 20px; }
 
-body {
-  padding: 20px;
-  font-size: 16px; }
+main {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 10px; }
 
-h1 {
-  font-size: 36px; }
+em {
+  font-style: italic;
+  font-weight: bold; }
 
-h2 {
-  font-size: 24px; }
+div.reviews {
+  display: block;
+  text-align: center; }
 
-h3 {
-  font-size: 21px; }
+div.center {
+  text-align: center; }
 
-p {
-  font-size: 16px; }
+img.center {
+  display: block;
+  text-align: center; }
