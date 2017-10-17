@@ -1,0 +1,37 @@
+gutter: 20px;
+main {
+	padding: gutter;
+	font-size: 16px;
+	display: flex;
+	justify-content: center;
+}
+h1 {
+	font-size:225% ;
+	font-weight: bold;
+}
+h2 {
+	font-size:131.25% ;
+	font-weight: bold;
+}
+h3 {
+	font-size:112.5% ;
+	font-weight: bold;
+}
+p {
+	font-size:100% ;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+}
+em {
+	font-style: italic;
+	font-weight: bold;
+}
+.reviews img{
+	display: block;
+	justify-content:center;
+	text-align: center;
+}
+
+
