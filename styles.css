@@ -35,3 +35,25 @@
     border-style: none; }
     .button--smallum:hover {
       background-color: transparent; }
+main {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 10px; }
+
+em {
+  font-style: italic;
+  font-weight: bold; }
+
+div.reviews {
+  display: block;
+  text-align: center; }
+
+div.center {
+  text-align: center; }
+
+img.center {
+  display: block;
+  text-align: center; }
+>>>>>>> 8f124c7c5454f0f785bb6c16fe5229dcb881057a
