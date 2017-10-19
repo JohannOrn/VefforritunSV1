@@ -51,6 +51,7 @@ main { /* stylelint-disable-line */
   height: $gutter;
 }
 
+<<<<<<< HEAD
 fieldset {
   padding: $gutter;
   margin: $gutter;
@@ -61,6 +62,8 @@ fieldset {
   align-items: center;
   justify-content: center;
 }
+=======
+>>>>>>> f3e46a6e34af17d3bcbdba135f1f86767065159a
 
 @import "scss/grid";
 @import "scss/header";
