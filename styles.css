@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 @charset "UTF-8";
 /* setjum box-sizing: border-box; á allt */
 html {
@@ -155,9 +154,6 @@ a {
 .text__p {
   margin: 20px; }
 
-=======
-<<<<<<< HEAD
->>>>>>> 7bae511f45ca99d574efa4cb61151f3f8d586d4b
 .button {
   display: inline-block;
   width: 100%;
@@ -195,7 +191,6 @@ a {
     border-style: none; }
     .button--smallum:hover {
       background-color: transparent; }
-<<<<<<< HEAD
 
 footer {
   display: flex;
@@ -214,9 +209,6 @@ footer div div {
 footer p {
   padding: 0; }
 
-=======
-=======
->>>>>>> 7bae511f45ca99d574efa4cb61151f3f8d586d4b
 main {
   padding: 15px;
   margin: 10px; }
