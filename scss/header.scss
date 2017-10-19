@@ -1,6 +1,7 @@
 $gutter: 20px;
 
 nav {
+  position: fixed;
   width: 100%;
   padding: 0.4*$gutter 0.4*$gutter;
   color: #eee;
@@ -8,26 +9,29 @@ nav {
 }
 
 header {
-  height: 20*$gutter;
+  height: 32*$gutter;
   padding: $gutter;
 }
 
 .header-index {
   display: flex;
   justify-content: center;
+  align-items: center;
   background: no-repeat fixed;
   background-image: url("bg.jpg");
-  background-position: 99% 99%;
+  background-position: 50% 50%;
   background-size: cover;
 }
 
 .header-subpage {
+  display: flex;
+  align-items: center;
   color: #fff;
   background: no-repeat fixed;
   background-image: url("bg-subpage.jpg");
   background-position: center;
   background-size: cover;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 a {
