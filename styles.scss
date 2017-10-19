@@ -51,6 +51,19 @@ main { /* stylelint-disable-line */
   height: $gutter;
 }
 
+<<<<<<< HEAD
+=======
+fieldset {
+  padding: $gutter;
+  margin: $gutter;
+}
+
+.panta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+>>>>>>> final2
 
 @import "scss/grid";
 @import "scss/header";

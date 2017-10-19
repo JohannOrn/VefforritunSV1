@@ -36,6 +36,15 @@ main {
 .check {
   height: 20px; }
 
+fieldset {
+  padding: 20px;
+  margin: 20px; }
+
+.panta {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -59,30 +68,34 @@ main {
       width: 100%; } }
 
 nav {
+  position: fixed;
   width: 100%;
   padding: 8px 8px;
   color: #eee;
   background-color: rgba(0, 0, 0, 0.8); }
 
 header {
-  height: 400px;
+  height: 640px;
   padding: 20px; }
 
 .header-index {
   display: flex;
   justify-content: center;
+  align-items: center;
   background: no-repeat fixed;
   background-image: url("bg.jpg");
-  background-position: 99% 99%;
+  background-position: 50% 50%;
   background-size: cover; }
 
 .header-subpage {
+  display: flex;
+  align-items: center;
   color: #fff;
   background: no-repeat fixed;
   background-image: url("bg-subpage.jpg");
   background-position: center;
   background-size: cover;
-  justify-content: center; }
+  justify-content: flex-start; }
 
 a {
   color: #fff;
@@ -156,8 +169,10 @@ a {
   .button--smallum {
     max-width: 60px;
     padding: 0;
-    background-color: #333;
+    background-color: transparent;
     border-style: none; }
+    .button--smallum:hover {
+      background-color: transparent; }
 
 footer {
   display: flex;
@@ -174,6 +189,7 @@ footer div div {
   padding: 20px; }
 
 main {
+<<<<<<< HEAD
   padding-top: 15px;
   padding-bottom: 15px;
   padding-right: 15px;
@@ -194,3 +210,18 @@ div.center {
 img.center {
   display: block;
   text-align: center; }
+=======
+  padding: 20px; }
+
+h1 {
+  font-size: 36px; }
+
+h2 {
+  font-size: 24px; }
+
+h3 {
+  font-size: 21px; }
+
+p {
+  font-size: 16px; }
+>>>>>>> final2
