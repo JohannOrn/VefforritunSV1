@@ -43,8 +43,21 @@ main { /* stylelint-disable-line */
   overflow-x: hidden;
 }
 
+.reviews {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 2*$gutter;
+}
+
 .reviews img {
   border-radius: 50%;
+}
+
+.reviews p {
+  font-size: 0.7*$gutter;
+  color: #888;
 }
 
 .check {
@@ -61,7 +74,19 @@ fieldset {
   align-items: center;
   justify-content: center;
 }
->>>>>>> final2
+
+p {
+  padding: 0.5*$gutter;
+}
+
+.image-index {
+  width: 17*$gutter;
+}
+
+blockquote {
+  font-size: 1.5*$gutter;
+  padding: $gutter;
+}
 
 @import "scss/grid";
 @import "scss/header";
@@ -70,4 +95,3 @@ fieldset {
 @import "scss/button";
 @import "scss/footer";
 @import "scss/main";
-//>>>>>>> 67bc1ac1c7fc2f4e41f43f601818d8d782bffae1
